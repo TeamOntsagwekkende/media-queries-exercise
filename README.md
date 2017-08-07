@@ -1,1 +1,1 @@
-#Responsive Design Excercise
+#Responsive Design Exercise
