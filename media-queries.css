@@ -2,13 +2,27 @@
     .hidden-on-mobile {
         display: none;
     }
+
+    .nav-links {
+        position: relative;
+    }
+
     .nav-links li {
         list-style: none;
-        float: right;
+        float: left;
+        position: absolute;
+        text-align: right;
         display: inline-block;
+        margin: 40px 5px;
     }
 
     .header-img {
         clear: both;
+        height: 385px;
+        width: 890px;
+    }
+
+    h1 {
+        float: left;
     }
 }
