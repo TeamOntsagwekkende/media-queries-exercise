@@ -13,21 +13,28 @@
         display: inline-block;
         margin: 40px 5px;
         position: relative;
-       left: 900px;
+        left: 900px;
     }
 
     .header-img {
         clear: both;
         height: 385px;
         width: 890px;
+        margin-bottom: 20px;
+        margin: 0 20px auto;
     }
 
     h1 {
         float: left;
     }
 
-    .main .sub-section{
+    .main {
+        width: 66%;
         float: left;
-        column-width:
+    }
+
+    .sub-section {
+        width: 33%;
+        float: right;
     }
 }
