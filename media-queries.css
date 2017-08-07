@@ -2,4 +2,13 @@
     .hidden-on-mobile {
         display: none;
     }
+    .nav-links li {
+        list-style: none;
+        float: right;
+        display: inline-block;
+    }
+
+    .header-img {
+        clear: both;
+    }
 }
