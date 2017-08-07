@@ -3,17 +3,17 @@
         display: none;
     }
 
-    .nav-links {
-        position: relative;
-    }
+
+
 
     .nav-links li {
         list-style: none;
         float: left;
-        position: absolute;
         text-align: right;
         display: inline-block;
         margin: 40px 5px;
+        position: relative;
+       left: 900px;
     }
 
     .header-img {
@@ -24,5 +24,10 @@
 
     h1 {
         float: left;
+    }
+
+    .main .sub-section{
+        float: left;
+        column-width:
     }
 }
