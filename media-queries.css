@@ -6,6 +6,7 @@
 
 
 
+
     .nav-links li {
         list-style: none;
         float: left;
@@ -13,7 +14,7 @@
         display: inline-block;
         margin: 40px 5px;
         position: relative;
-        left: 900px;
+        left: 550px;
     }
 
     .header-img {
@@ -21,7 +22,7 @@
         height: 385px;
         width: 890px;
         margin-bottom: 20px;
-        margin: 0 20px auto;
+        margin: 20px auto;
     }
 
     h1 {
@@ -36,5 +37,11 @@
     .sub-section {
         width: 33%;
         float: right;
+    }
+
+    footer p {
+        position: relative;
+        bottom: -420px;
+
     }
 }
