@@ -56,12 +56,15 @@
 
 @media screen and (max-width: 500px) {
     h1 {
-        margin-bottom: 0px;
+        margin-bottom: 30px;
+        margin-top: 15px;
         text-align: center;
+        font-size: 3em;
     }
 
     body {
         margin: 10px;
+        font-family: sans-serif;
     }
 
     img {
@@ -77,22 +80,20 @@
         border: 1px solid lightgray;
         height: 40px;
         width: 339px;
-        margin: 15px auto;
+        margin: 15px 0;
         background-color: darkgray;
         line-height:40px;
-
+        padding: 0px;
     }
 
-    ul {
-        padding: none;
-        margin: auto;
+    ul.nav-links {
+        padding: 0px;
     }
-
 
     div.alert-info {
         margin: 0 auto;
         text-align: center;
-        border: 1px solid gray;
+        border: 1px solid lightgray;
         background-color: #CCFFFF;
         height: 40px;
         width: 339px;
@@ -100,5 +101,9 @@
         line-height:40px;
     }
 
+    .alert-info>a:link {
+        text-decoration: none;
+        color: black;
+    }
 
 }
